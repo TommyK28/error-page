@@ -1,0 +1,26 @@
+@media only screen and (min-width: 992px) {
+  .error-page {
+    .container {
+      .circle {
+        top: -30px;
+      }
+      .error-message {
+        .inner-text {
+          width: 50%;
+        }
+      }
+      .cards-field {
+        margin-top: 3rem;
+        .row {
+          .column {
+            flex-direction: row;
+            margin: 0;
+            .shadow {
+              margin: 0 0.75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

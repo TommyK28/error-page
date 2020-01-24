@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ae646e;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  color: #408fec;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #707070;
+}
+
+p {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  color: #707070;
+}

@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ae646e;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  color: #408fec;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #707070;
+}
+
+p {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  color: #707070;
+}
+
+.error-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin: auto;
+}
+
+.error-page .container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.error-page .container .circle {
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 928px;
+  height: 928px;
+  border-radius: 50%;
+  background: #ffeef3;
+  opacity: 1;
+}
+
+.error-page .container .error-message {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 2;
+}
+
+.error-page .container .error-message .error-img {
+  background: url("../images/error-illustration.png") no-repeat center;
+  width: 128px;
+  height: 109.31px;
+  margin: 3rem 0 0.98rem 0;
+}
+
+.error-page .container .error-message .inner-text {
+  width: 88%;
+  text-align: center;
+}
+
+.error-page .container .cards-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.error-page .container .cards-field .row .column .shadow {
+  position: relative;
+  margin: 0.75rem 0;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  opacity: 2;
+  -webkit-box-shadow: 0px 12px 20px rgba(29, 49, 88, 0.1);
+          box-shadow: 0px 12px 20px rgba(29, 49, 88, 0.1);
+}
+
+.error-page .container .cards-field .row .column .shadow .card {
+  position: relative;
+}
+
+.error-page .container .cards-field .row .column .shadow .card .browser-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.25rem 3.62rem 1rem 3.62rem;
+}
+
+.error-page .container .cards-field .row .column .shadow .card .browser-logo .logo-chrome {
+  background: url("../images/chrome.png") no-repeat center;
+  width: 64px;
+  height: 64px;
+}
+
+.error-page .container .cards-field .row .column .shadow .card .browser-logo .logo-firefox {
+  background: url("../images/firefox.png") no-repeat center;
+  width: 64px;
+  height: 64px;
+}
+
+.error-page .container .cards-field .row .column .shadow .card .browser-logo .logo-edge {
+  background: url("../images/edge.png") no-repeat center;
+  width: 64px;
+  height: 64px;
+}
+
+.error-page .container .cards-field .row .column .shadow .card .browser-logo .logo-safari {
+  background: url("../images/safari.png") no-repeat center;
+  width: 64px;
+  height: 64px;
+}
+
+.error-page .container .cards-field .row .column .shadow .card .browser-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.error-page .container .cards-field .row .column .shadow .card .browser-name p {
+  padding-bottom: 1.5rem;
+}
+
+.error-page .container .success-message {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 3rem auto 1rem auto;
+}
+
+.error-page .container .brand-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.error-page .container .brand-logo .logo {
+  display: inline-block;
+  background: url("../images/smartsupp-logo.svg") no-repeat center;
+  width: 120px;
+  height: 22.82px;
+  margin-bottom: 3.62rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .error-page .container {
+    width: 100%;
+  }
+  .error-page .container .error-message {
+    width: 88%;
+    margin: auto;
+  }
+  .error-page .container .cards-field .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .error-page .container .cards-field .row .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .error-page .container .error-message .inner-text {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .error-page .container .circle {
+    top: -30px;
+  }
+  .error-page .container .error-message .inner-text {
+    width: 50%;
+  }
+  .error-page .container .cards-field {
+    margin-top: 3rem;
+  }
+  .error-page .container .cards-field .row .column {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0;
+  }
+  .error-page .container .cards-field .row .column .shadow {
+    margin: 0 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .error-page {
+    max-width: 1366px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

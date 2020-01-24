@@ -1,0 +1,22 @@
+@media only screen and (min-width: 600px) {
+  .error-page {
+    .container {
+      width: 100%;
+      .error-message {
+        width: 88%;
+        margin: auto;
+      }
+      .cards-field {
+        .row {
+          display: flex;
+          flex-direction: row;
+          .column {
+            display: flex;
+            flex-direction: column;
+            margin: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+}

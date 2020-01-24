@@ -1,0 +1,124 @@
+.error-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin: auto;
+  .container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    .circle {
+      display: block;
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 928px;
+      height: 928px;
+      border-radius: 50%;
+      background: #ffeef3;
+      opacity: 1;
+    }
+    .error-message {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 2;
+      .error-img {
+        background: url("../images/error-illustration.png") no-repeat center;
+        width: 128px;
+        height: 109.31px;
+        margin: 3rem 0 0.98rem 0;
+      }
+      .inner-text {
+        width: 88%;
+        text-align: center;
+      }
+    }
+    .cards-field {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      .row {
+        .column {
+          .shadow {
+            position: relative;
+            margin: 0.75rem 0;
+            background: #ffffff;
+            border: 1px solid #ffffff;
+            border-radius: 8px;
+            opacity: 2;
+            box-shadow: 0px 12px 20px rgba(29, 49, 88, 0.1);
+
+            .card {
+              position: relative;
+              .browser-logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 2.25rem 3.62rem 1rem 3.62rem;
+                .logo-chrome {
+                  background: url("../images/chrome.png") no-repeat center;
+                  width: 64px;
+                  height: 64px;
+                }
+                .logo-firefox {
+                  background: url("../images/firefox.png") no-repeat center;
+                  width: 64px;
+                  height: 64px;
+                }
+                .logo-edge {
+                  background: url("../images/edge.png") no-repeat center;
+                  width: 64px;
+                  height: 64px;
+                }
+                .logo-safari {
+                  background: url("../images/safari.png") no-repeat center;
+                  width: 64px;
+                  height: 64px;
+                }
+              }
+              .browser-name {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                p {
+                  padding-bottom: 1.5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .success-message {
+      width: 88%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 3rem auto 1rem auto;
+    }
+    .brand-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      .logo {
+        display: inline-block;
+        background: url("../images/smartsupp-logo.svg") no-repeat center;
+        width: 120px;
+        height: 22.82px;
+        margin-bottom: 3.62rem;
+      }
+    }
+  }
+}
